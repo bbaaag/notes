@@ -1,0 +1,20 @@
+1.phpstrom的使用
+2.php编码风格
+3.string
+4.正则
+5.数组
+6.文件核心
+7linux
+8php运行原理
+9.http     tcp/ip
+10.php数据结构
+11.设计模式
+12.高级特性
+13.yii2
+14.larval
+15.mysql
+16.nosql
+17.html5 css3
+18.es6   
+19.vue
+20.网站架构
