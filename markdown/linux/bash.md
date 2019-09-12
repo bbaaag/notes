@@ -4,17 +4,17 @@
 
 ## 简介
 
-我并不会列出一条命令的所有选项，如果有需要可以参考http://wangchujiang.com/linux-command/
+我并不会列出一条命令的所有选项，如果有需要可以详见文末的主要参考
 
 
 
-约定
+**约定**
 
 .   (*)  必须掌握
 
 .   (-)   一些好用的命令，需要自己安装（awesome-line）
 
-
+. （%）了解熟悉
 
 ## 目录操作
 
@@ -64,7 +64,7 @@ tree -s -h  #以友好的方式显示文件大小
 
 ## 文件操作
 
-### touch
+### touch（*）
 
 ​           1.新建新的空文件
 
@@ -75,7 +75,7 @@ touch index.html #新建空文件
 touch -t 201909111623 filename  #设置文件的访问时间和修改时间
 ```
 
-### file  
+### file  （%）
 
 确认文件的类型
 
@@ -85,7 +85,7 @@ file -i filename #显示文件编码
 
 ```
 
-### stat 
+### stat （%）
 
 显示文件的属性(包含size, inode,修改时间，创建时间，访问时间)
 
@@ -93,7 +93,7 @@ file -i filename #显示文件编码
 stat filename #
 ```
 
-### lsattr
+### lsattr（*）
 
 查看文件特殊属性
 
@@ -103,10 +103,66 @@ stat filename #
 lsattr filename
 ```
 
-chattr
+### chattr（*）
 
 修改文件的多种特殊属性(与lsatrr对应)
 
+```
+a：让文件或目录仅供附加用途；
+b：不更新文件或目录的最后存取时间；
+c：将文件或目录压缩后存放；
+d：将文件或目录排除在倾倒操作之外；
+i：不得任意更动文件或目录；
+s：保密性删除文件或目录；
+S：即时更新文件或目录；
+u：预防意外删除。
+-R：递归处理，将指令目录下的所有文件及子目录一并处理；
+-v<版本编号>：设置文件或目录版本；
+-V：显示指令执行过程；
++<属性>：开启文件或目录的该项属性；
+-<属性>：关闭文件或目录的该项属性；
+=<属性>：指定文件或目录的该项属性。
+```
+
+```
+chattr +i path  #使文件不可更改和删除，即使超级用户
+chattr -i path  #使文件可更改
+chattr -R +i folder  #递归地使整个文件夹和内容不可更改
+```
+
+### mkdir(*)
+
+ 用来创建目录
+
+```
+
+mkdir -m 755 test  #指定权限创建
+mkdir -p bin/os    #递归创建目录
+
+```
+
+
+
+### rmdir（%）
+
+```
+rmdir demo #删除空目录，如果目录有文件无法删除
+```
+
+### cp(*)
+
+复制文件
+
+```
+cp index.php php #复制 index.php 文件到当前 php 目录下
+
+cp -a index.php php #复制 index.php 文件到当前 php 目录下,保留文件的属性、权限、软连接自动指向目标文件
+
+cp index.php ~/app.php #复制文件到指定目录下并修改文件名
+
+cp -R php app #递归复制 php 目录下所有文件到 app 目录
+
+```
 
 
 
@@ -118,10 +174,11 @@ chattr
 
 
 
+## 主要参考
 
-## 参考
+tldr ：https://github.com/tldr-pages/tldr
 
-tldr
+最好用的命令查询网站：http://wangchujiang.com/linux-command/
 
 
 
