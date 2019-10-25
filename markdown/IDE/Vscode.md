@@ -17,6 +17,11 @@ vscode-fileheader  快捷键 ctrl+alt+i
 ![title](https://i.loli.net/2019/10/25/rc2vkjewdCi1aUB.png)
 
 
+### 文件图标
+vscode-icons
+
+
+
 
 ### Eslint规则检查
 
