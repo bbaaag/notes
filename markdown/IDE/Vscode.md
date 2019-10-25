@@ -12,6 +12,10 @@
 
 ![title](https://i.loli.net/2019/10/25/9MbAcSnYfDRQ871.png)
 	
+### 文件头部注释
+vscode-fileheader
+
+
 
 
 ### Eslint规则检查
