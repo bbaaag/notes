@@ -25,7 +25,7 @@ vscode-icons
 
 ### Eslint规则检查
 
-npm install -g eslint 
+运行 npm install -g eslint 
 
 
 
