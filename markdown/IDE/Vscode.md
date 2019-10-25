@@ -25,6 +25,9 @@ vscode-icons
 
 ### Eslint规则检查
 
+npm install -g eslint 
+
+
 
 关于 vue报错的解决：
 设置–》在搜索框中输入：vetur.validation.template–》
