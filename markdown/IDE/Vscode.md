@@ -48,6 +48,8 @@ Beautify
 
 
 ### 自动提示
+Path Intellisense
+
 
 
 
