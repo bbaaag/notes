@@ -49,6 +49,9 @@ Beautify
 
 ### 自动提示
 Path Intellisense
+IntelliSense for CSS class names in HTML
+Npm Intellisense
+
 
 
 
