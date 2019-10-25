@@ -38,6 +38,10 @@ Project Manager
 ![title](https://i.loli.net/2019/10/25/U7sQPymTdSjZY5c.png)
 
 
+### 格式化代码
+Beautify
+
+
 
 
 
