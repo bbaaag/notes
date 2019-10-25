@@ -13,8 +13,8 @@
 ![title](https://i.loli.net/2019/10/25/9MbAcSnYfDRQ871.png)
 	
 ### 文件头部注释
-vscode-fileheader
-
+vscode-fileheader  快捷键 ctrl+alt+i
+![title](https://i.loli.net/2019/10/25/rc2vkjewdCi1aUB.png)
 
 
 
@@ -35,7 +35,16 @@ vscode-fileheader
 ### emmet
 Emmet可以极大的提高 html 和 css 的编写效率
 
-
-
-
 ![title](https://i.loli.net/2019/10/25/eH8lWXvGa1uhNRJ.png)
+
+
+
+
+
+
+
+
+
+
+
+
