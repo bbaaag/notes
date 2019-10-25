@@ -17,7 +17,10 @@
 ### Eslint规则检查
 
 
-设置–》在搜索框中输入：vetur.validation.template–》找到vetur.validation.template：true–》将vetur.validation.template：true在右栏框中进行重置为false就ok了。 
+关于 vue报错的解决：
+设置–》在搜索框中输入：vetur.validation.template–》
+找到vetur.validation.template：true–》
+将vetur.validation.template：true在右栏框中进行重置为false就ok了。 
 
 
 
