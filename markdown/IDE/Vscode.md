@@ -70,14 +70,15 @@ Emmet可以极大的提高 html 和 css 的编写效率
 
 ### 代码提示
 
-TabNine
+TabNine  (不支持vue)
 cnpm  install -g flow-bin flow lsp
 cnpm install -g vscode-html-languageserver-bin html-languageserver --stdio
 
 
 
-AiXcoder 
+AiXcoder  (不支持vue)
 aiXcoder是一个AI驱动的代码提示工具。支持的编程语言有Java，Python，C++，Php。
+
 
 
 
