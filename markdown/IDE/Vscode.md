@@ -71,10 +71,9 @@ Emmet可以极大的提高 html 和 css 的编写效率
 ### 代码提示
 
 TabNine
-
-
 cnpm  install -g flow-bin flow lsp
 cnpm install -g vscode-html-languageserver-bin html-languageserver --stdio
+
 
 
 AiXcoder 
