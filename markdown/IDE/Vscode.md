@@ -77,6 +77,8 @@ cnpm  install -g flow-bin flow lsp
 cnpm install -g vscode-html-languageserver-bin html-languageserver --stdio
 
 
+AiXcoder 
+aiXcoder是一个AI驱动的代码提示工具。支持的编程语言有Java，Python，C++，Php。
 
 
 
