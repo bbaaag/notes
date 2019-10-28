@@ -74,7 +74,7 @@ TabNine
 
 
 cnpm  install -g flow-bin flow lsp
-
+cnpm install -g vscode-html-languageserver-bin html-languageserver --stdio
 
 
 
