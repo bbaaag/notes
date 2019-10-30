@@ -108,5 +108,8 @@ CSS 类名智能提示
 IntelliSense for CSS class names in HTML
 
 
+文件图标 vscode-icons
+
+
 
 
