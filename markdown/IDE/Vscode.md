@@ -82,7 +82,7 @@ Emmet可以极大的提高 html 和 css 的编写效率
 对于一些属性的值是数值，例如：padding，margin，left，width 等，输入属性首字母与值即可。比如， m1 是 margin: 1px; 。单位默认是 px，不过你可以指定一下单位，比如： w2vw 就是 width: 2vw; 。当值是百分比时比较特殊，字母 p 代表 %，比如： w5p 就是 width: 5%; 。
 
 名称较长的属性往往含有连字符（-），输入连字符前后两个单词的首字母再加上值即可。比如： pt10 是 padding-top: 10px; 
-
+https://img.ctolib.com/uploadImg/20180504/20180504090112_453.gif
 
 
 ### 代码提示
