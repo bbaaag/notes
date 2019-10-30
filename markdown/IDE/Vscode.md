@@ -127,6 +127,10 @@ Path Intellisense：路径智能提示。
 
 vue 相关
 
+vetur：语法高亮、智能感知、Emmet等
+
+
+
 
 
 
