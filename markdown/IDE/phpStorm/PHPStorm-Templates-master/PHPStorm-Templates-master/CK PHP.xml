@@ -1,0 +1,117 @@
+<templateSet group="CK PHP">
+  <template name="erron" value="// Configuration for error reporting, useful to show every little problem during development&#10;error_reporting(E_ALL);&#10;ini_set(&quot;display_errors&quot;, 1);&#10;" description="error reporting on" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="autoload" value="require(__DIR__ . '/vendor/autoload.php');" description="Composer Autoload statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pf" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;BoB&quot;" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ipf" value="public function $thename$();" description="public function for interface" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="thename" expression="" defaultValue="&quot;bob&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bob" value="$bob=5;" description="put any php code on a line so can set a Breakpoint" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="var" value="@var $VARNAME$ $VARTYPE$ */" description="Inline variable definition phpdoc hinting" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VARNAME" expression="" defaultValue="&quot;$line&quot;" alwaysStopAt="true" />
+    <variable name="VARTYPE" expression="" defaultValue="&quot;SongLineChordPro&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

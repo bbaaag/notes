@@ -1,0 +1,24 @@
+<templateSet group="CK HTML">
+  <template name="script:src" value="&lt;script type=&quot;text/javascript&quot; src=&quot;$END$&quot;&gt;&lt;/script&gt;" description="&lt;script type=&quot;text/javascript&quot; src=&quot;...&quot;&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="script" value="&lt;script type=&quot;text/javascript&quot;&gt;$END$&lt;/script&gt;" description="&lt;script type=&quot;text/javascript&quot;&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="style" value="&lt;style type=&quot;text/css&quot;&gt;$END$&lt;/style&gt;" description="&lt;style type=&quot;text/css&quot;&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+    </context>
+  </template>
+  <template name="table" value="&lt;table class=&quot;table table-bordered table-striped&quot;&quot;&gt;&#10;      &lt;thead&gt;&#10;        &lt;tr&gt;&#10;          &lt;th&gt;#&lt;/th&gt;&#10;          &lt;th&gt;First Name&lt;/th&gt;&#10;          &lt;th&gt;Last Name&lt;/th&gt;&#10;          &lt;th&gt;Username&lt;/th&gt;&#10;        &lt;/tr&gt;&#10;      &lt;/thead&gt;&#10;      &lt;tbody&gt;&#10;        &lt;tr&gt;&#10;          &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;&#10;          &lt;td&gt;Mark&lt;/td&gt;&#10;          &lt;td&gt;Otto&lt;/td&gt;&#10;          &lt;td&gt;@mdo&lt;/td&gt;&#10;        &lt;/tr&gt;&#10;        &lt;tr&gt;&#10;          &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;&#10;          &lt;td&gt;Jacob&lt;/td&gt;&#10;          &lt;td&gt;Thornton&lt;/td&gt;&#10;          &lt;td&gt;@fat&lt;/td&gt;&#10;        &lt;/tr&gt;&#10;        &lt;tr&gt;&#10;          &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;&#10;          &lt;td&gt;Larry&lt;/td&gt;&#10;          &lt;td&gt;the Bird&lt;/td&gt;&#10;          &lt;td&gt;@twitter&lt;/td&gt;&#10;        &lt;/tr&gt;&#10;      &lt;/tbody&gt;&#10;    &lt;/table&gt;" description="table basic" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

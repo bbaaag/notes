@@ -1,0 +1,62 @@
+<templateSet group="CK Snap.SVG JavaScript">
+  <template name="snap.animate" value="var rect = Snap().rect(0, 0, 10, 10);&#10;&#10;Snap.animate($FROM$, $TO$, function (val) {&#10;            rect.attr({ &#10;                x: val  &#10;            });&#10;}, $DURATION$, $OPTIONAL_EASING_FUNCTION$, $OPTIONAL_CALLBACK_FUNCTION$ optionalEasingFunction,  optionalCallbackFunc);" description="Snap.animate()" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FROM" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="TO" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <variable name="DURATION" expression="" defaultValue="&quot;1000&quot;" alwaysStopAt="true" />
+    <variable name="OPTIONAL_EASING_FUNCTION" expression="" defaultValue="&quot;, mina.bounce&quot;" alwaysStopAt="true" />
+    <variable name="OPTIONAL_CALLBACK_FUNCTION" expression="" defaultValue="&quot;, callbackFunctionName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="snap.circle" value="var bigCircle = s.circle($CENTER_X$, $CENTER_Y$, $RADIUS$).attr({&#10;    fill:        &quot;#bada55&quot;,&#10;    stroke:      &quot;#000&quot;,&#10;    strokeWidth: 5,&#10;    fillOpacity: 0.3&#10;    //strokeOpacity: 0.5,&#10;    //opacity: 0.5&#10;});" description="snap svg circle" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="CENTER_X" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <variable name="CENTER_Y" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <variable name="RADIUS" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

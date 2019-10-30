@@ -1,0 +1,39 @@
+<templateSet group="CK Backbone.js">
+  <template name="bb-collection" value="var Directory = Backbone.Collection.extend({&#10;&#9;&#9;model:$MODELNAME$&#10;});" description="Backbone Collection" toReformat="false" toShortenFQNames="true">
+    <variable name="MODELNAME" expression="" defaultValue="&quot;Book&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bb-model" value="var Contact = Backbone.Model.extend({&#10;    defaults: {&#10;        photo: &quot;/img/placeholder.png&quot;&#10;    },&#10;&#9;initialize: function(){&#10;        // function auto triggered on creation&#10;    }&#10;});" description="Backbone Model" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bb-view" value="var DocumentRow = Backbone.View.extend({&#10;&#10;    tagName: &quot;li&quot;,&#10;&#10;    className: &quot;document-row&quot;,&#10;&#10;    events: {&#10;        &quot;click .icon&quot;:          &quot;open&quot;,&#10;        &quot;click .button.edit&quot;:   &quot;openEditDialog&quot;,&#10;        &quot;click .button.delete&quot;: &quot;destroy&quot;&#10;    },&#10;&#10;    initialize: function() {&#10;        this.listenTo(this.model, &quot;change&quot;, this.render);&#10;    },&#10;&#10;    render: function() {&#10;        //...&#10;    }&#10;&#10;});" description="Backbone View" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

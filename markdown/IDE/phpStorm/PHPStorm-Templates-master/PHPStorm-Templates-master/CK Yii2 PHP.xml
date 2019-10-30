@@ -1,0 +1,13 @@
+<templateSet group="CK Yii2 PHP">
+  <template name="yii-listview" value="ListView::widget([&#10;    'dataProvider' =&gt; $dataProvider,&#10;    'options' =&gt; ['class' =&gt; 'list-group'],&#10;    'itemOptions' =&gt; ['class' =&gt; 'item list-group-item'],&#10;    'itemView' =&gt; function ($model, $key, $index, $widget) {&#10;        return Html::a(Html::encode($model-&gt;name), ['view', 'id' =&gt; $model-&gt;id]);&#10;    },&#10;])" description="Yii2 ListView Widget" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-html-encode" value="Html::encode($var$)" description="Yii2 HTML safe output of variable from DB" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="var" expression="" defaultValue="&quot;$this-&gt;title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

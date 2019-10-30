@@ -1,0 +1,225 @@
+<templateSet group="Bootstrap3">
+  <template name="bs3-alert:danger" value="&lt;div class=&quot;alert alert-danger&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$" description="Alert (Danger)" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-alert:info" value="&lt;div class=&quot;alert alert-info&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$" description="Alert (Info)" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-alert:success" value="&lt;div class=&quot;alert alert-success&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$" description="Alert (Success)" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-alert:warning" value="&lt;div class=&quot;alert alert-warning&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$" description="Alert (Warning)" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-alert" value="&lt;div class=&quot;alert&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$" description="Alert" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-badge" value="&lt;span class=&quot;badge&quot;&gt;$var1$&lt;/span&gt;$END$" description="Badge" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;Badge&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-breadcrumbs" value="&lt;ol class=&quot;breadcrumb&quot;&gt;&#10;&#9;&lt;li&gt;&#10;&#9;&#9;&lt;a href=&quot;$var1$&quot;&gt;$var2$&lt;/a&gt;&#10;&#9;&lt;/li&gt;&#10;&#9;&lt;li class=&quot;active&quot;&gt;$var3$&lt;/li&gt;&#10;&lt;/ol&gt;$END$" description="Breadcrumbs" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-cdn:css" value="&lt;!-- Latest compiled and minified CSS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&quot;&gt;$END$" description="Bootstrap 3 CSS CDN" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-cdn:js" value="&lt;!-- Latest compiled and minified JS --&gt;&#10;&lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;$END$" description="Bootstrap 3 JavaScript CDN" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-cdn" value="&lt;!-- Latest compiled and minified CSS &amp; JS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&quot;&gt;&#10;&lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;$END$" description="Bootstrap 3 CSS &amp; JS CDN" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-clearfix" value="&lt;div class=&quot;clearfix&quot;&gt;&#10;    $var1$&#10;&lt;/div&gt;$END$" description="Clearfix" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-thumbnail:content" value="&lt;div class=&quot;col-xs-$var1$ col-sm-$var1$ col-md-$var1$ col-lg-$var1$&quot;&gt;&#10;&#9;&lt;div class=&quot;thumbnail&quot;&gt;&#10;&#9;&#9;&lt;img data-src=&quot;$var2$&quot; alt=&quot;$var3$&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;caption&quot;&gt;&#10;&#9;&#9;&#9;&lt;h3&gt;$var4$&lt;/h3&gt;&#10;&#9;&#9;&#9;&lt;p&gt;&#10;&#9;&#9;&#9;&#9;$var5$&#10;&#9;&#9;&#9;&lt;/p&gt;&#10;&#9;&#9;&#9;&lt;p&gt;&#10;&#9;&#9;&#9;&#9;&lt;a href=&quot;$var6$&quot; class=&quot;btn btn-primary&quot;&gt;$var7$&lt;/a&gt;&#10;&#9;&#9;&#9;&#9;&lt;a href=&quot;$var8$&quot; class=&quot;btn btn-default&quot;&gt;$var9$&lt;/a&gt;&#10;&#9;&#9;&#9;&lt;/p&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Thumbnail with content" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var4" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var5" expression="&quot;Content...&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var6" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var7" expression="&quot;Action&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var8" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var9" expression="&quot;Action&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-thumbnail" value="&lt;div class=&quot;col-xs-$var1$ col-sm-$var1$ col-md-$var1$ col-lg-$var1$&quot;&gt;&#10;&#9;&lt;a href=&quot;$var2$&quot; class=&quot;thumbnail&quot;&gt;&#10;&#9;&#9;&lt;img data-src=&quot;$var3$&quot; alt=&quot;$var4$&quot;&gt;&#10;&#9;&lt;/a&gt;&#10;&lt;/div&gt;$END$" description="Thumbnail" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var4" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-container" value="&lt;div class=&quot;container&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Container" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-container:fluid" value="&lt;div class=&quot;container-fluid&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Container Fluid" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:1" value="&lt;div class=&quot;col-xs-1 col-sm-1 col-md-1 col-lg-1&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 1" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:2" value="&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 2" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:3" value="&lt;div class=&quot;col-xs-3 col-sm-3 col-md-3 col-lg-3&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 3" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:4" value="&lt;div class=&quot;col-xs-4 col-sm-4 col-md-4 col-lg-4&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 4" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:5" value="&lt;div class=&quot;col-xs-5 col-sm-5 col-md-5 col-lg-5&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 5" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:6" value="&lt;div class=&quot;col-xs-6 col-sm-6 col-md-6 col-lg-6&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 6" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:7" value="&lt;div class=&quot;col-xs-7 col-sm-7 col-md-7 col-lg-7&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 7" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:8" value="&lt;div class=&quot;col-xs-8 col-sm-8 col-md-8 col-lg-8&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 8" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:9" value="&lt;div class=&quot;col-xs-9 col-sm-9 col-md-9 col-lg-9&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 9" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:10" value="&lt;div class=&quot;col-xs-10 col-sm-10 col-md-10 col-lg-10&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 10" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:11" value="&lt;div class=&quot;col-xs-11 col-sm-11 col-md-11 col-lg-11&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 11" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-col:12" value="&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Column 12" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-checkbox" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;&#9;&lt;label&gt;&#10;&#9;&#9;&lt;input type=&quot;checkbox&quot; value=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;&#9;&#9;$var3$&#10;&#9;&lt;/label&gt;&#10;&lt;/div&gt;$END$" description="Checkbox Input Field" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="inputID" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="Checkbox" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-template:starter" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#10;    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;&#10;    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;&#10;    &lt;title&gt;Starter Template for Bootstrap&lt;/title&gt;&#10;&#10;    &lt;!-- Bootstrap core CSS --&gt;&#10;    &lt;link href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&#10;    &lt;!-- Custom styles for this template --&gt;&#10;    &lt;style&gt;&#10;    body {&#10;      padding-top: 50px;&#10;    }&#10;    .starter-template {&#10;      padding: 40px 15px;&#10;      text-align: center;&#10;    }&#10;    &lt;/style&gt;    &#10;&#10;    &lt;!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;&#10;    &lt;!--[if lt IE 9]&gt;&#10;      &lt;script src=&quot;https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js&quot;&gt;&lt;/script&gt;&#10;      &lt;script src=&quot;https://oss.maxcdn.com/respond/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;![endif]--&gt;&#10;  &lt;/head&gt;&#10;&#10;  &lt;body&gt;&#10;&#10;    &lt;div class=&quot;navbar navbar-inverse navbar-fixed-top&quot; role=&quot;navigation&quot;&gt;&#10;      &lt;div class=&quot;container&quot;&gt;&#10;        &lt;div class=&quot;navbar-header&quot;&gt;&#10;          &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;&#10;            &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;&#10;            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&#10;            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&#10;            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&#10;          &lt;/button&gt;&#10;          &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;$END$Project name&lt;/a&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;collapse navbar-collapse&quot;&gt;&#10;          &lt;ul class=&quot;nav navbar-nav&quot;&gt;&#10;            &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;&#10;          &lt;/ul&gt;&#10;        &lt;/div&gt;&lt;!--/.nav-collapse --&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&#10;    &lt;div class=&quot;container&quot;&gt;&#10;&#10;      &lt;div class=&quot;starter-template&quot;&gt;&#10;        &lt;h1&gt;Bootstrap starter template&lt;/h1&gt;&#10;        &lt;p class=&quot;lead&quot;&gt;Use this document as a way to quickly start any new project.&lt;br&gt; All you get is this text and a mostly barebones HTML document.&lt;/p&gt;&#10;      &lt;/div&gt;&#10;&#10;    &lt;/div&gt;&lt;!-- /.container --&gt;&#10;&#10;    &lt;!-- Bootstrap core JavaScript&#10;    ================================================== --&gt;&#10;    &lt;!-- Placed at the end of the document so the pages load faster --&gt;&#10;    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" description="Bootstrap 3 Starter Template" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-button:dropdown" value="&lt;div class=&quot;dropdown&quot;&gt;&#10;  &lt;button class=&quot;btn btn-default dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenu1&quot; data-toggle=&quot;dropdown&quot;&gt;&#10;    Dropdown&#10;    &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;  &lt;/button&gt;&#10;  &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot; aria-labelledby=&quot;dropdownMenu1&quot;&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;dropdown-header&quot;&gt;Dropdown header&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;disabled&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;dropdown-header&quot;&gt;Dropdown header&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;" description="Full dropdown example" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-button-group" value="&lt;div class=&quot;btn-group&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right&lt;/button&gt;&#10;&lt;/div&gt;" description="Button group" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-button-toolbar" value="&lt;div class=&quot;btn-toolbar&quot; role=&quot;toolbar&quot;&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;1&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;2&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;3&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;4&lt;/button&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;5&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;6&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;7&lt;/button&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;8&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Button toolbar" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-button-group:vertical" value="&lt;div class=&quot;btn-group-vertical&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button id=&quot;btnGroupVerticalDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;&#10;      Dropdown&#10;      &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;    &lt;/button&gt;&#10;    &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot; aria-labelledby=&quot;btnGroupVerticalDrop1&quot;&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/div&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;&#10;&lt;/div&gt;" description="Button group (Vertical orientation)" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-well" value="&lt;div class=&quot;well&quot;&gt;$var1$&lt;/div&gt;$end$" description="Well" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-well:large" value="&lt;div class=&quot;well well-lg&quot;&gt;$var1$&lt;/div&gt;$end$" description="Well (large)" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-well:small" value="&lt;div class=&quot;well well-sm&quot;&gt;$var1$&lt;/div&gt;$end$" description="Well (small)" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="bs3-alert-link" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10;   &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're &lt;a href=&quot;#&quot; class=&quot;alert-link&quot;&gt;not looking too good&lt;/a&gt;.&#10;&lt;/div&gt;$end$" description="Alert with alert link (warning)" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,98 @@
+<templateSet group="CK Yii2-Helpers PHP">
+  <template name="yii-icon" value="echo Html::icon('$icon$');" description="Yii2-helpers Bootstrap3 icon" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="icon" expression="" defaultValue="&quot;pencil&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-label" value="echo Html::bsLabel('$text$', $labeltype$);" description="echo Bootstrap3 Label - Default style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <variable name="labeltype" expression="enum(Html::TYPE_DEFAULT, Html::TYPE_PRIMARY, Html::TYPE_SUCCESS, Html::TYPE_INFO, Html::TYPE_WARNING, Html::TYPE_DANGER)" defaultValue="&quot;Html::TYPE_DEFAULT&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-label-primary" value="echo Html::bsLabel('$text$',  Html::TYPE_PRIMARY);" description="echo Bootstrap3 Label - Primary style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;Textl&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-label-success" value="echo Html::bsLabel('$text$',  Html::TYPE_SUCCESS);" description="echo Bootstrap3 Label - Primary style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;Textl&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-label-danger" value="echo Html::bsLabel('$text$',  Html::TYPE_DANGER);" description="echo Bootstrap3 Label - Danger style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;Textl&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-label-info" value="echo Html::bsLabel('$text$',  Html::TYPE_INFO);" description="echo Bootstrap3 Label - Danger style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;Textl&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-label-warning" value="echo Html::bsLabel('$text$',  Html::TYPE_WARNING);" description="echo Bootstrap3 Label - Warning style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;Textl&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-bs-helpers" value="// add this to your code to use these classes&#10;use kartik\helpers\Html;&#10;use kartik\helpers\Enum;" description="User statements to add to php to use any yii2-helpers objects" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii-html-panel-short" value="echo Html::panel(&#10;&#9;['heading' =&gt; 'Panel Heading', 'body' =&gt; 'Panel Content'],&#10;&#9;Html::TYPE_SUCCESS&#10;);" description="Yii Boostrap Panel Short" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="yii-html-panel-long" value="echo Html::panel(&#10;&#9;[&#10;&#9;&#9;'heading' =&gt; 'Panel Heading',&#10;&#9;&#9;'body' =&gt; 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ' .&#10;&#9;&#9;          'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',&#10;&#9;&#9;'postBody' =&gt; Html::listGroup([&#10;&#9;&#9;&#9;[&#10;&#9;&#9;&#9;&#9;'content' =&gt; 'Cras justo odio',&#10;&#9;&#9;&#9;&#9;'url' =&gt; '#',&#10;&#9;&#9;&#9;&#9;'badge' =&gt; '14'&#10;&#9;&#9;&#9;],&#10;&#9;&#9;&#9;[&#10;&#9;&#9;&#9;&#9;'content' =&gt; 'Dapibus ac facilisis in',&#10;&#9;&#9;&#9;&#9;'url' =&gt; '#',&#10;&#9;&#9;&#9;&#9;'badge' =&gt; '2'&#10;&#9;&#9;&#9;],&#10;&#9;&#9;&#9;[&#10;&#9;&#9;&#9;&#9;'content' =&gt; 'Morbi leo risus',&#10;&#9;&#9;&#9;&#9;'url' =&gt; '#',&#10;&#9;&#9;&#9;&#9;'badge' =&gt; '1'&#10;&#9;&#9;&#9;],&#10;&#9;&#9;], [], 'ul', 'li'),&#10;&#9;&#9;'footer'=&gt; 'Panel Footer',&#10;&#9;&#9;'headingTitle' =&gt; true,&#10;&#9;&#9;'footerTitle' =&gt; true,&#10;&#9;]&#10;);" description="Yii Bootstrap Panel Long" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

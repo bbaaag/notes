@@ -1,0 +1,55 @@
+<templateSet group="CK Laravel5">
+  <template name="textinput" value="&lt;!-- Form Input --&gt;&#10;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    {!! Form::label('$NAME$', '$LABELNAME$:') !!}&#10;    {!! Form::text('$NAME$', null, array('class' =&gt; 'form-control')) !!}&#10;&lt;/div&gt;&#10;&#10;$END$" description="Laravel Blade Form Text Input" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="LABELNAME" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="l5-url-action" value="{{ action('$CONROLLERNAME$@$ACTIONNAME$', [$PARAMS$]) }}" description="Laravel5 Blade Make URL from Conrtoller@Action, Params" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CONROLLERNAME" expression="" defaultValue="&quot;Artist&quot;" alwaysStopAt="true" />
+    <variable name="ACTIONNAME" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="&quot;$article-&gt;id&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="l5-url-path" value="{{ url('/$PATH$', $PARAM$) }}" description="Laravel5 Blade Make URL from Path" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PATH" expression="" defaultValue="&quot;artists&quot;" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="&quot;$artist-&gt;id&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="l5-submit-btn" value="&lt;!-- Form Submit Btn --&gt;&#10;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    {!! Form::submit($submit_text, ['class' =&gt; 'btn btn-primary form-control']) !!}&#10;&lt;/div&gt;" description="Laravel5 Blade Submit Button" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

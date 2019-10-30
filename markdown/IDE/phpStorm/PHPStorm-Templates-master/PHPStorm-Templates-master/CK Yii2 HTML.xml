@@ -1,0 +1,61 @@
+<templateSet group="CK Yii2 HTML">
+  <template name="yii-listview" value="&lt;?= ListView::widget([&#10;        'dataProvider' =&gt; $dataProvider,&#10;        'options' =&gt; ['class' =&gt; 'list-group'],&#10;        'itemOptions' =&gt; ['class' =&gt; 'item list-group-item'],&#10;        'itemView' =&gt; function ($model, $key, $index, $widget) {&#10;            return Html::a(Html::encode($model-&gt;name), ['view', 'id' =&gt; $model-&gt;id]);&#10;        },&#10;    ]) ?&gt;" description="Yii List View Widget" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="yii-html-encode" value="&lt;?= Html::encode($var$); ?&gt;" description="safe HTML output of DB variable" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="var" expression="" defaultValue="&quot;$this-&gt;title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="yii-html-link" value="&lt;?= Html::a('$text$', ['$path$'], ['class' =&gt; '$class$']) ?&gt;" description="Yii2 HTML a href link" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="text" expression="" defaultValue="&quot;link&quot;" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="&quot;site/index&quot;" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
