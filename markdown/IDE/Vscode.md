@@ -122,3 +122,11 @@ Auto Rename Tag : 当修改HTML/XML标签时，会自动修改与之对应的开
 Path Intellisense：路径智能提示。
 
 
+
+
+
+vue 相关
+
+
+
+
