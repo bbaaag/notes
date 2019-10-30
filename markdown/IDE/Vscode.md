@@ -61,6 +61,17 @@ Npm Intellisense
 
 ### emmet
 Emmet可以极大的提高 html 和 css 的编写效率
+快速输入 HTML
+
+如果熟悉 CSS 的语法，你会发现 Emmet 就是很容易上手。
+
+元素(Elements)：生成一个 HTML 元素
+> ：生成子元素
++ ：生成元素的兄弟节点
+* ：生成多个相同的元素
+你可以 . 或者 # 来修饰元素，给元素加上 class 或者 id
+![title](https://i.loli.net/2019/10/30/NLAU8XYdzh3G52F.png)
+
 
 ![title](https://i.loli.net/2019/10/25/eH8lWXvGa1uhNRJ.png)
 
