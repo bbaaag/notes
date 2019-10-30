@@ -81,5 +81,6 @@ aiXcoder是一个AI驱动的代码提示工具。支持的编程语言有Java，
 
 
 
+Prettier 格式化代码
 
 
