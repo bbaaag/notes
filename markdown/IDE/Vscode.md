@@ -104,3 +104,9 @@ Prettier 格式化代码
 ![title](https://i.loli.net/2019/10/30/lknOAvwWYs3cV2E.png)
 
 
+CSS 类名智能提示
+插件名称：IntelliSense for CSS class names in HTML
+
+
+
+
