@@ -114,6 +114,7 @@ IntelliSense for CSS class names in HTML
 
 快速注释 Document This
 
+代码拼写检查 Code Spell Checker
 
 
 
