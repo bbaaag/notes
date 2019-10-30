@@ -1,0 +1,35 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "editor.fontSize": 18,
+    "terminal.integrated.shell.windows": "D:\\Git\\bin\\bash.exe",
+    "git.path": "D:/Git/bin/git.exe",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "eslint.autoFixOnSave": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "vetur.validation.template": false,
+    "fileheader.Author": "baisaiyu",
+    "fileheader.LastModifiedBy": "baisaiyu",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "prettier.semi": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true
+}
