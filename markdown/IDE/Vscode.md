@@ -132,5 +132,8 @@ vetur：语法高亮、智能感知、Emmet等
 
 
 
+Settings Sync：VSCode设置同步到Gis
+
+
 
 
