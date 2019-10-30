@@ -116,5 +116,9 @@ IntelliSense for CSS class names in HTML
 
 代码拼写检查 Code Spell Checker
 
+Auto Close Tag : 匹配标签，关闭对应的标签。
+
+Auto Rename Tag : 当修改HTML/XML标签时，会自动修改与之对应的开始/结束标签。
+Path Intellisense：路径智能提示。
 
 
