@@ -110,6 +110,10 @@ IntelliSense for CSS class names in HTML
 
 文件图标 vscode-icons
 
+万能语言运行环境 Code Runner
+
+快速注释 Document This
+
 
 
 
