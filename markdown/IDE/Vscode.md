@@ -105,7 +105,7 @@ Prettier 格式化代码
 
 
 CSS 类名智能提示
-插件名称：IntelliSense for CSS class names in HTML
+IntelliSense for CSS class names in HTML
 
 
 
